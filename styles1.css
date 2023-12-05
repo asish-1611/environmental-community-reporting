@@ -1,0 +1,539 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:rgb(191, 184, 60); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+ 
+.introduction{
+    background-image:url(Images1/background_image_introduction.jpg);
+    background-color: aqua;
+}
+
+
+.introduction .introduction-content h1{
+    color: rgb(8, 1, 15);
+}
+.introduction-content h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 500px;
+}
+.introduction .introduction-content p{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.introduction .introduction-content p span{
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+.introduction {
+    background-color: #fff; 
+    padding: 60px 0;
+    text-align: center;
+}
+
+.introduction-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.introduction h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 1.2rem;
+    color: #555; 
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+.communities {
+    background-color: #fff; /* White background color */
+    padding: 60px 0;
+    text-align: center;
+    /* background-image: url(Images1/community\ background.jpg); */
+    
+}
+
+.communities-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+.communities h1 {
+    font-size: 70px;
+    color: rgb(63, 145, 33); /* Dark gray text color */
+    margin-bottom: 30px;
+    font-style: inherit;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.community {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    text-align: center;
+}
+
+.community img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.community h2 {
+    font-size: 40px;
+    color: rgb(23, 23, 130); /* Dark gray text color */
+    margin: 15px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-display:flex;
+    
+}
+
+.community p {
+    font-size: 20px;
+    color: rgb(6, 5, 6) ; /* Slightly lighter gray text color */
+    margin-bottom: 15px;
+    font-family: cursive;
+    
+}
+.benefits {
+    background-color: #fff; /* White background color */
+    padding: 60px 0;
+    text-align:center;
+    /* background-image: url(Images1/community\ background.jpg);
+    opacity: 1; */
+}
+
+.benefits-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+.benefits h1 {
+    font-size: 70px;
+    color: rgb(63, 145, 33); /* Dark gray text color */
+    margin-bottom: 30px;
+    font-style: inherit;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.benefits {
+    border: 1px solid #181717; /* Light gray border */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(19, 18, 18, 0.1); /* Subtle box shadow */
+    text-align: center;
+}
+
+.benefits img {
+    max-width: 100%;
+    border-radius: 5px;
+    height:400px;
+    width: 600px;
+}
+
+.benefits h2 {
+    font-size: 40px;
+    color: rgb(23, 23, 130); /* Dark gray text color */
+    margin: 15px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-display:flex;
+    
+}
+
+.benefits p {
+    font-size: 20px;
+    color: rgb(6, 5, 6) ; /* Slightly lighter gray text color */
+    margin-bottom: 15px;
+    font-family: cursive;
+    
+}
+.harm {
+    background-color: #fff; /* White background color */
+    padding: 60px 0;
+    text-align: center;
+    /* background-image: url(Images1/community\ background.jpg);
+    opacity: 1; */
+}
+
+.harm-content {
+    max-width: 800px;
+    margin: 0 auto;
+    /* background-color:rgb(199, 227, 199); */
+}
+
+.harm h1 {
+    font-size: 70px;
+    color: rgb(63, 145, 33); /* Dark gray text color */
+    margin-bottom: 30px;
+    font-style: inherit;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.harm {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    text-align: center;
+}
+
+.harm img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.harm h2 {
+    font-size: 40px;
+    color: rgb(23, 23, 130); /* Dark gray text color */
+    margin: 15px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-display:flex;
+    
+}
+
+.harm p {
+    font-size: 20px;
+    color: rgb(6, 5, 6) ; /* Slightly lighter gray text color */
+    margin-bottom: 15px;
+    font-family: cursive;
+    
+}
+.map {
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.map h2 {
+    font-size: 50px;
+    color: brown; /* Dark gray text color */
+    margin-bottom: 30px;
+}
+
+.map-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.map-container img {
+    max-width: 100%;
+    height: auto;
+}
+.get-involved {
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.get-involved-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.get-involved h2 {
+    font-size: 2rem;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 30px;
+}
+
+.get-involved p {
+    font-size: 1.2rem;
+    color: #555; /* Slightly lighter gray text color */
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button background color */
+    color: #fff; /* White button text color */
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.about-us {
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 30px;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    color: #555; /* Slightly lighter gray text color */
+    margin-bottom: 30px;
+}
+.testimonial {
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.testimonial-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial h2 {
+    font-size: 2rem;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 30px;
+}
+
+.testimonial-card {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    text-align: center;
+}
+
+.testimonial-card img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.testimonial-card p {
+    font-size: 1.2rem;
+    color: #555; /* Slightly lighter gray text color */
+    margin-bottom: 15px;
+}
+
+.testimonial-card h3 {
+    font-size: 1.2rem;
+    color: #333; /* Dark gray text color */
+}
+.contact-us {
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-us h2 {
+    font-size: 2rem;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 30px;
+}
+
+.contact-us p {
+    font-size: 1.2rem;
+    color: #555; /* Slightly lighter gray text color */
+    margin-bottom: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333; /* Dark gray text color */
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button background color */
+    color: #fff; /* White button text color */
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.newsletter-signup {
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.newsletter-signup-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.newsletter-signup h2 {
+    font-size: 2rem;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 30px;
+}
+
+.newsletter-signup p {
+    font-size: 1.2rem;
+    color: #555; /* Slightly lighter gray text color */
+    margin-bottom: 30px;
+}
+
+.signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form input {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+}
+
+.signup-form button {
+    background-color: #007bff; /* Blue button background color */
+    color: #fff; /* White button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+footer {
+    background-color: #f8f8f8; /* Light gray background color */
+    padding: 30px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    height: aut o;
+}
+
+.footer-info p {
+    font-size: 1rem;
+    color: #555; /* Slightly lighter gray text color */
+    margin: 5px 0;
+}
+
+.footer-social a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-social img {
+    max-width: 30px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
